@@ -1,0 +1,12 @@
+h1{
+  color: white;
+}
+body{
+  text-align: center;
+}
+img{
+  padding-top: 20px;
+}
+h1,p{
+  padding: 10px;
+}

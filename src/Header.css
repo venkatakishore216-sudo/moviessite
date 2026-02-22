@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+  background: black;
+  color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 95%;
+  z-index: 1000;
+
+  flex-wrap: wrap;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Logo */
+.logo span {
+  color: red;
+}
+
+/* Search */
+.search-box input {
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Buttons */
+.nav-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-buttons button:hover {
+  background: darkred;
+}
