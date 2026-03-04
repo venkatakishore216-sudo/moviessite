@@ -17,6 +17,7 @@ function Movie({ movies }) {
       <p><strong>Year:</strong> {movie.year}</p>
       <p><strong>Rating:</strong> {movie.rating}</p>
       <p>{movie.overview}</p>
+      <h3>Streaming on</h3>
       
             {movie.wat && (
               <button

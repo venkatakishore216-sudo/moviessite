@@ -54,14 +54,9 @@ function Moviecard({ movie, isSelected, onClick, onClose }) {
             )}
 
             <div style={{ marginTop: "15px" }}>
-              <input
-                placeholder="........."
-                value={inputValue}
-                onChange={(e)=>setInputValue(e.target.value)}
-              />
 
-              <button onClick={handleSearch}>
-                Search
+              <button className="trailer-btn" onClick={handleSearch}>
+                More
               </button>
             </div>
 
